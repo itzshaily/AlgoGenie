@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlgoGenie | AI Instructor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="DSA.css">
+</head>
+<body>
+
+    <div class="page-container">
+        <header class="main-header">
+            <h1><i class="fas fa-terminal"></i> AlgoGenie</h1>
+            <!-- <div style="background: linear-gradient(90deg, #5e60ce, #4ea8de); color: white; padding: 8px 16px; border-radius: 12px; font-weight: bold; display: inline-block; box-shadow: 0 2px 5px rgba(0,0,0,0.2);">
+  🧞 AlgoGenie — Your DSA Wish, My Command!
+</div> -->
+
+            <p>Your DSA Wish, My Command!</p>
+        </header>
+
+        <main class="main-content">
+            <div class="prompt-starters">
+                <button class="prompt-btn">Explain Big O notation</button>
+                <button class="prompt-btn">What is a hash map?</button>
+                <button class="prompt-btn">Compare quicksort and mergesort</button>
+            </div>
+
+            <div class="chat-container">
+                <div class="chat-header">
+                    <h2>AI Assistant</h2>
+                </div>
+                <div class="chat-box" id="chat-box">
+                    <div class="chat-message bot-message">
+                        <p>Welcome! Ask me any question about DSA, and I'll do my best to explain.</p>
+                    </div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="user-input" placeholder="Ask about arrays, trees, sorting...">
+                    <button id="send-btn" title="Send Message">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- The JavaScript remains untouched, as requested -->
+    <script type="module" src="https://esm.sh/@google/generative-ai"></script>
+    <script type="module" src="DSA.js"></script>
+</body>
+</html>
