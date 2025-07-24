@@ -1,6 +1,6 @@
 // import {GoogleGenAI }   from  "@google/genai";
 
-// const ai = new GoogleGenAI({apiKey: "AIzaSyBRhop_ujMtLcS1zTdszYyB52xUTxEmNMA"});
+// const ai = new GoogleGenAI({apiKey: "GET_YOUR_API_KEY "});
 
 // async function main(msg) {
 //   const response = await ai.models.generateContent({
@@ -49,7 +49,7 @@ import { GoogleGenerativeAI } from "https://esm.sh/@google/generative-ai";
 // 1. REPLACE "YOUR_API_KEY" with your actual Google AI API key.
 // 2. Ensure your API key is enabled for the "Generative Language API".
 //
-const API_KEY = "AIzaSyBRhop_ujMtLcS1zTdszYyB52xUTxEmNMA";
+const API_KEY = "GET_YOUR_API_KEY_HERE";
 //
 // --- END: IMPORTANT ---
 
