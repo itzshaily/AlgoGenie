@@ -4,6 +4,9 @@ AlgoGenie is a web-based AI chatbot designed to assist users with Data Structure
 Powered by Google's Gemini AI API, it acts as a smart, quirky DSA instructor that helps you crack coding problems with simple explanations — and isn’t afraid to roast you if you ask irrelevant questions! 😉
 
 
+<img width="1594" height="877" alt="image" src="https://github.com/user-attachments/assets/1c7eddb7-2725-46ec-a7f5-79cff8fb1dc1" />
+
+  
 🚀 Features
 
 🤖 AI-Powered DSA Query Resolver
